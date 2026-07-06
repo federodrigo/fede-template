@@ -4,13 +4,13 @@ import HeaderLink from './HeaderLink.astro';
 
 <header>
 	<nav>
-		<a class="brand" href="/en/">Fede Rodrigo</a>
+		<a class="brand" href="/">Fede Rodrigo</a>
 
 		<div class="nav-links">
-			<HeaderLink href="/en/#about">About</HeaderLink>
-			<HeaderLink href="/en/#books">Books</HeaderLink>
-			<HeaderLink href="/en/#contact">Contact</HeaderLink>
-			<a class="language" href="/es/">ES</a>
+			<HeaderLink href="#about">About</HeaderLink>
+			<HeaderLink href="#books">Books</HeaderLink>
+			<HeaderLink href="#contact">Contact</HeaderLink>
+			<span class="language">EN | ES</span>
 		</div>
 	</nav>
 </header>
@@ -35,7 +35,6 @@ import HeaderLink from './HeaderLink.astro';
 		font-size: 1rem;
 		color: #0f172a;
 		text-decoration: none;
-		letter-spacing: -0.02em;
 	}
 
 	.nav-links {
@@ -44,14 +43,11 @@ import HeaderLink from './HeaderLink.astro';
 		gap: 20px;
 	}
 
-	nav a {
+	nav a,
+	.language {
 		color: #334155;
 		text-decoration: none;
 		font-size: 0.95rem;
-	}
-
-	nav a:hover {
-		color: #0f4c81;
 	}
 
 	.language {
@@ -63,12 +59,8 @@ import HeaderLink from './HeaderLink.astro';
 	}
 
 	@media (max-width: 720px) {
-		nav {
-			padding: 18px 20px;
-		}
-
 		.nav-links {
-			gap: 12px;
+			gap: 10px;
 		}
 	}
 </style>
