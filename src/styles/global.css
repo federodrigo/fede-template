@@ -325,18 +325,6 @@ img {
 }
 
 
-/* MOBILE */
-
-	.book-item .book-cover {
-		width: 220px;
-		height: 330px;
-	}
-
-	.book-content {
-		min-height: auto;
-	}
-}
-
 @media (max-width: 720px) {
 
 	body {
