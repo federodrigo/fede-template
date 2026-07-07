@@ -132,14 +132,6 @@ img {
 	border-radius: 12px;
 }
 
-.expertise-list {
-	max-width: 100%;
-	margin-top: 2px;
-	margin-bottom: 0;
-	font-size: 1.02rem;
-	line-height: 1.65;
-	color: var(--muted);
-}
 
 .book-card {
 	display: flex;
