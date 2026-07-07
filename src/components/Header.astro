@@ -1,12 +1,8 @@
----
-import HeaderLink from './HeaderLink.astro';
----
-
 <header class="site-header">
 	<div class="header-inner">
 		<a href="/" class="brand">
 			<span class="brand-name">Fede Rodrigo</span>
-			<span class="brand-subtitle">CIO · Author · LinkedIn</span>
+			<span class="brand-subtitle">CIO · Author</span>
 		</a>
 
 		<nav class="main-nav">
@@ -14,56 +10,8 @@ import HeaderLink from './HeaderLink.astro';
 			<a href="/#books">Books</a>
 			<a href="/#essays">Essays</a>
 			<a href="/#contact">Contact</a>
+			<a href="https://www.linkedin.com/in/fede-rodrigo/" target="_blank">LinkedIn</a>
 			<a href="/es" class="lang">EN | ES</a>
 		</nav>
 	</div>
 </header>
-<style>
-	header {
-		background: white;
-		border-bottom: 1px solid rgba(15, 23, 42, 0.08);
-	}
-
-	nav {
-		max-width: 1040px;
-		margin: 0 auto;
-		padding: 22px 24px;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
-
-	.brand {
-		font-weight: 800;
-		font-size: 1rem;
-		color: #0f172a;
-		text-decoration: none;
-	}
-
-	.nav-links {
-		display: flex;
-		align-items: center;
-		gap: 20px;
-	}
-
-	nav a,
-	.language {
-		color: #334155;
-		text-decoration: none;
-		font-size: 0.95rem;
-	}
-
-	.language {
-		border: 1px solid #cbd5e1;
-		border-radius: 999px;
-		padding: 6px 12px;
-		color: #0f4c81;
-		font-weight: 700;
-	}
-
-	@media (max-width: 720px) {
-		.nav-links {
-			gap: 10px;
-		}
-	}
-</style>
