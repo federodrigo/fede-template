@@ -30,7 +30,7 @@ main {
 }
 
 .hero {
-	padding: 72px 0 82px;
+	padding: 40px 0 55px;
 	border-bottom: 1px solid var(--line);
 }
 
@@ -80,7 +80,7 @@ section:last-child {
 }
 
 h2 {
-	margin: 0 0 28px;
+	margin: 0 0 18px;
 	font-size: 1.9rem;
 	font-weight: 800;
 	line-height: 1.15;
