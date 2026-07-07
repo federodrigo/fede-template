@@ -4,23 +4,37 @@ const today = new Date();
 
 <footer>
 	<div class="footer-content">
-		<p>© {today.getFullYear()} Fede Rodrigo</p>
 
-		<a
-			href="https://www.linkedin.com/in/fede-rodrigo/"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			LinkedIn
-		</a>
+		<div class="footer-left">
+			<p>© {today.getFullYear()} Fede Rodrigo</p>
+		</div>
+
+		<div class="footer-right">
+			<a
+				href="mailto:frodrigo@gmail.com"
+			>
+				Email
+			</a>
+
+			<span>•</span>
+
+			<a
+				href="https://www.linkedin.com/in/fede-rodrigo/"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				LinkedIn
+			</a>
+		</div>
+
 	</div>
 </footer>
 
 <style>
 	footer {
-		margin-top: 80px;
-		padding: 40px 24px;
-		border-top: 1px solid #e2e8f0;
+		margin-top: 70px;
+		padding: 28px 24px;
+		border-top: 1px solid #d9e3f0;
 	}
 
 	.footer-content {
@@ -29,28 +43,39 @@ const today = new Date();
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		font-size: 0.9rem;
 		color: #64748b;
-		font-size: 0.95rem;
 	}
 
-	.footer-content p {
+	.footer-left p {
 		margin: 0;
 	}
 
-	.footer-content a {
-		color: #0f4c81;
-		text-decoration: none;
-		font-weight: 600;
+	.footer-right {
+		display: flex;
+		align-items: center;
+		gap: 12px;
 	}
 
-	.footer-content a:hover {
-		color: #c1121f;
+	.footer-right span {
+		color: #94a3b8;
+	}
+
+	.footer-right a {
+		color: #64748b;
+		text-decoration: none;
+		font-weight: 500;
+		transition: color 0.15s ease;
+	}
+
+	.footer-right a:hover {
+		color: #102a43;
 	}
 
 	@media (max-width: 720px) {
 		.footer-content {
 			flex-direction: column;
-			gap: 12px;
+			gap: 10px;
 		}
 	}
 </style>
