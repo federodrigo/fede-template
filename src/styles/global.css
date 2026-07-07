@@ -289,7 +289,7 @@ img {
 }
 
 .book-content {
-	min-height: 180px;
+	min-height: 0px;
 }
 
 .book-item h3 {
