@@ -250,6 +250,11 @@ img {
 	color: var(--blue);
 }
 
+.book-ssrn {
+	margin-top: 12px;
+	font-size: 0.92rem;
+}
+
 /* ESSAYS */
 
 .essay-card {
