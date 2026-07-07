@@ -88,7 +88,7 @@ body {
 main {
 	max-width: 920px;
 	margin: 0 auto;
-	padding: 44px 32px 56px;
+	padding: 44px 32px 40px;
 }
 
 .hero {
@@ -130,6 +130,11 @@ h1 {
 
 section {
 	padding: 28px 0;
+}
+
+.contact-section {
+	padding-top: 8px;
+	padding-bottom: 4px;
 }
 
 h2 {
@@ -332,7 +337,7 @@ img {
 	}
 
 	main {
-		padding: 36px 24px 52px;
+		padding: 36px 24px 36px;
 	}
 
 	.hero {
@@ -363,5 +368,10 @@ img {
 	.book-item .book-cover {
 		width: 220px;
 		height: 330px;
+	}
+
+	.contact-section {
+		padding-top: 6px;
+		padding-bottom: 2px;
 	}
 }
