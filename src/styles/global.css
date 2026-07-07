@@ -22,6 +22,70 @@ body {
 	line-height: 1.55;
 }
 
+/* HEADER */
+
+.site-header {
+	background: var(--navy);
+	border-bottom: none;
+}
+
+.header-inner {
+	max-width: 920px;
+	margin: 0 auto;
+	padding: 18px 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 32px;
+}
+
+.brand {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.brand-name {
+	color: #ffffff;
+	font-size: 1rem;
+	font-weight: 800;
+	line-height: 1.2;
+}
+
+.brand-subtitle {
+	color: rgba(255, 255, 255, 0.72);
+	font-size: 0.78rem;
+	margin-top: 2px;
+}
+
+.main-nav {
+	display: flex;
+	align-items: center;
+	gap: 22px;
+}
+
+.main-nav a {
+	color: #ffffff;
+	font-size: 0.9rem;
+	font-weight: 700;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.main-nav a:hover {
+	color: #ffffff;
+	opacity: 0.75;
+}
+
+.main-nav .lang {
+	padding: 5px 11px;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	border-radius: 999px;
+}
+
+/* MAIN */
+
 main {
 	max-width: 920px;
 	margin: 0 auto;
@@ -71,10 +135,6 @@ h1 {
 
 section {
 	padding: 28px 0;
-	border-bottom: none;
-}
-
-section:last-child {
 	border-bottom: none;
 }
 
@@ -132,6 +192,7 @@ img {
 	border-radius: 12px;
 }
 
+/* BOOKS / ESSAYS */
 
 .book-card {
 	display: flex;
@@ -168,6 +229,8 @@ img {
 	box-shadow: 0 8px 22px rgba(16, 42, 67, 0.04);
 }
 
+/* ACCESSIBILITY */
+
 .sr-only {
 	border: 0;
 	padding: 0;
@@ -181,9 +244,23 @@ img {
 	white-space: nowrap;
 }
 
+/* MOBILE */
+
 @media (max-width: 720px) {
 	body {
 		font-size: 17px;
+	}
+
+	.header-inner {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 12px;
+		padding: 18px 24px;
+	}
+
+	.main-nav {
+		flex-wrap: wrap;
+		gap: 14px;
 	}
 
 	main {
@@ -217,80 +294,5 @@ img {
 
 	.book-cover {
 		width: 180px;
-
-/* HEADER */
-
-.site-header {
-	background: var(--navy);
-	border-bottom: none;
-}
-
-.header-inner {
-	max-width: 920px;
-	margin: 0 auto;
-	padding: 18px 32px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.brand {
-	display: flex;
-	flex-direction: column;
-	text-decoration: none;
-	border-bottom: none;
-}
-
-.brand-name {
-	color: white;
-	font-size: 1rem;
-	font-weight: 800;
-	line-height: 1.2;
-}
-
-.brand-subtitle {
-	color: rgba(255,255,255,0.75);
-	font-size: 0.78rem;
-	margin-top: 2px;
-}
-
-.main-nav {
-	display: flex;
-	align-items: center;
-	gap: 24px;
-}
-
-.main-nav a {
-	color: white;
-	font-weight: 700;
-	border-bottom: none;
-}
-
-.main-nav a:hover {
-	color: white;
-	opacity: 0.8;
-}
-
-.main-nav .lang {
-	padding: 6px 12px;
-	border: 1px solid rgba(255,255,255,0.35);
-	border-radius: 999px;
-}
-
-@media (max-width: 720px) {
-	.header-inner {
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 12px;
-		padding: 18px 24px;
-	}
-
-	.main-nav {
-		flex-wrap: wrap;
-		gap: 14px;
-	}
-}
-
-		
 	}
 }
