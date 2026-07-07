@@ -2,7 +2,6 @@
 	--bg: #f6f7f9;
 	--navy: #102a43;
 	--blue: #2563eb;
-	--sky: #eef4ff;
 	--red: #c53030;
 	--text: #243447;
 	--muted: #64748b;
@@ -20,58 +19,58 @@ body {
 	font-family: Inter, ui-sans-serif, system-ui, -apple-system,
 		BlinkMacSystemFont, "Segoe UI", sans-serif;
 	font-size: 18px;
-	line-height: 1.65;
+	line-height: 1.6;
 }
 
 main {
-	max-width: 960px;
+	max-width: 940px;
 	margin: 0 auto;
-	padding: 64px 32px 80px;
+	padding: 54px 32px 72px;
 }
 
 .hero {
-	padding: 40px 0 55px;
+	padding: 34px 0 46px;
 	border-bottom: 1px solid var(--line);
 }
 
 .eyebrow {
-	margin: 0 0 18px;
+	margin: 0 0 14px;
 	color: var(--red);
-	font-size: 0.78rem;
+	font-size: 0.76rem;
 	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 0.16em;
 }
 
 h1 {
-	max-width: 760px;
-	margin: 0 0 26px;
-	font-size: clamp(3rem, 5.4vw, 5rem);
+	max-width: 740px;
+	margin: 0 0 22px;
+	font-size: clamp(2.8rem, 5vw, 4.6rem);
 	font-weight: 800;
 	line-height: 1;
-	letter-spacing: -0.055em;
+	letter-spacing: -0.05em;
 	color: var(--navy);
 }
 
 .lead {
-	max-width: 760px;
-	margin: 0 0 22px;
-	font-size: clamp(1.35rem, 2vw, 1.75rem);
+	max-width: 720px;
+	margin: 0 0 16px;
+	font-size: clamp(1.25rem, 1.8vw, 1.6rem);
 	line-height: 1.35;
 	font-weight: 800;
 	color: var(--navy);
 }
 
 .hero-text {
-	max-width: 690px;
+	max-width: 680px;
 	margin: 0;
-	font-size: 1.08rem;
-	line-height: 1.6;
+	font-size: 1.05rem;
+	line-height: 1.55;
 	color: var(--text);
 }
 
 section {
-	padding: 70px 0;
+	padding: 44px 0;
 	border-bottom: 1px solid var(--line);
 }
 
@@ -81,7 +80,7 @@ section:last-child {
 
 h2 {
 	margin: 0 0 18px;
-	font-size: 1.9rem;
+	font-size: 1.75rem;
 	font-weight: 800;
 	line-height: 1.15;
 	letter-spacing: -0.035em;
@@ -91,16 +90,16 @@ h2 {
 h2::after {
 	content: "";
 	display: block;
-	width: 46px;
+	width: 42px;
 	height: 3px;
-	margin-top: 12px;
+	margin-top: 10px;
 	background: var(--red);
 	border-radius: 3px;
 }
 
 h3 {
 	margin: 0 0 8px;
-	font-size: 1.25rem;
+	font-size: 1.2rem;
 	font-weight: 750;
 	line-height: 1.3;
 	color: var(--navy);
@@ -108,7 +107,7 @@ h3 {
 
 p {
 	max-width: 760px;
-	margin: 0 0 20px;
+	margin: 0 0 16px;
 }
 
 em {
@@ -133,37 +132,27 @@ img {
 	border-radius: 12px;
 }
 
-.expertise-grid {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 16px;
-	margin-top: 20px;
-}
-
-.expertise-grid div {
-	background: #ffffff;
-	border: 1px solid var(--line);
-	border-radius: 12px;
-	padding: 20px;
-	color: var(--navy);
-	font-weight: 750;
-	font-size: 0.95rem;
-	box-shadow: 0 10px 28px rgba(16, 42, 67, 0.04);
+.expertise-list {
+	max-width: 100%;
+	margin-top: 4px;
+	font-size: 1.08rem;
+	line-height: 1.8;
+	color: var(--muted);
 }
 
 .book-card {
 	display: flex;
-	gap: 38px;
+	gap: 34px;
 	align-items: flex-start;
-	margin-top: 28px;
-	max-width: 860px;
+	margin-top: 24px;
+	max-width: 840px;
 }
 
 .book-cover {
-	width: 210px;
+	width: 205px;
 	max-width: 100%;
 	border-radius: 10px;
-	box-shadow: 0 18px 42px rgba(16, 42, 67, 0.14);
+	box-shadow: 0 16px 38px rgba(16, 42, 67, 0.14);
 }
 
 .book-info {
@@ -176,14 +165,14 @@ img {
 
 .upcoming-book,
 .essay-card {
-	margin-top: 36px;
-	max-width: 860px;
-	padding: 26px 28px;
+	margin-top: 28px;
+	max-width: 840px;
+	padding: 24px 26px;
 	border: 1px solid var(--line);
 	border-left: 4px solid var(--red);
 	border-radius: 12px;
 	background: #ffffff;
-	box-shadow: 0 10px 28px rgba(16, 42, 67, 0.04);
+	box-shadow: 0 10px 26px rgba(16, 42, 67, 0.04);
 }
 
 .sr-only {
@@ -205,19 +194,19 @@ img {
 	}
 
 	main {
-		padding: 44px 24px 64px;
+		padding: 40px 24px 60px;
 	}
 
 	.hero {
-		padding: 52px 0 64px;
+		padding: 44px 0 54px;
 	}
 
 	h1 {
-		font-size: 3rem;
+		font-size: 2.8rem;
 	}
 
 	.lead {
-		font-size: 1.25rem;
+		font-size: 1.2rem;
 	}
 
 	.hero-text {
@@ -225,16 +214,12 @@ img {
 	}
 
 	section {
-		padding: 54px 0;
-	}
-
-	.expertise-grid {
-		grid-template-columns: 1fr;
+		padding: 42px 0;
 	}
 
 	.book-card {
 		flex-direction: column;
-		gap: 24px;
+		gap: 22px;
 	}
 
 	.book-cover {
