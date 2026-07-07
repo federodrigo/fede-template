@@ -113,6 +113,9 @@ h1 {
 	line-height: 1;
 	letter-spacing: -0.045em;
 	color: var(--navy);
+	.accent {
+	color: #3b82f6;
+	}
 }
 
 .lead {
