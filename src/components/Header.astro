@@ -1,15 +1,20 @@
+---
+const isSpanish = Astro.url.pathname.startsWith('/es');
+const base = isSpanish ? '/es' : '';
+---
+
 <header class="site-header">
 	<div class="header-inner">
-		<a href="/" class="brand">
+		<a href={isSpanish ? "/es/" : "/"} class="brand">
 			<span class="brand-name">Fede Rodrigo</span>
 			<span class="brand-subtitle">CIO · Author</span>
 		</a>
 
 		<nav class="main-nav">
-			<a href="/#about">About</a>
-			<a href="/#leadership">The CIO Office</a>
-			<a href="/#books">Books</a>
-			<a href="/#contact">Contact</a>
+			<a href={`${base}/#about`}>About</a>
+			<a href={`${base}/#leadership`}>The CIO Office</a>
+			<a href={`${base}/#books`}>Books</a>
+			<a href={`${base}/#contact`}>Contact</a>
 
 			<span class="lang-switch">
 				<a href="/">EN</a>
