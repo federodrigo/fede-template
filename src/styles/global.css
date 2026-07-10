@@ -150,6 +150,17 @@ h1 {
 	letter-spacing: 0.01em;
 }
 
+.lead-principles {
+	margin-top: 18px;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	font-size: 1.1rem;
+	font-weight: 800;
+	letter-spacing: 0.01em;
+	color: #4b5563;
+}
+
 .hero-text {
 	max-width: 660px;
 	margin: 0;
