@@ -77,11 +77,29 @@ body {
 	opacity: 0.75;
 }
 
-.main-nav .lang {
+.lang-switch {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
 	padding: 5px 11px;
 	border: 1px solid rgba(255,255,255,0.4);
 	border-radius: 999px;
+	color: white;
 }
+
+.lang-switch a {
+	color: white;
+	font-size: 0.9rem;
+	font-weight: 700;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.lang-switch span {
+	color: rgba(255,255,255,0.55);
+}
+
+
 
 /* MAIN */
 
