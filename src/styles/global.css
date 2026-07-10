@@ -123,7 +123,7 @@ main {
 
 .hero {
 	max-width: 760px;
-	padding: 10px 0 36px;
+	padding: 10px 0 20px;
 	border-bottom: 1px solid var(--line);
 }
 
@@ -172,7 +172,7 @@ h1 {
 }
 
 .lead-principles {
-	margin-top: 12px;
+	margin-top: 16px;
 	display: block;
 	font-size: 1rem;
 	font-weight: 750;
@@ -204,7 +204,7 @@ h1 {
 }
 
 section {
-	padding: 20px 0;
+	padding: 28px 0;
 }
 
 .contact-section {
