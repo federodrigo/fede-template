@@ -25,10 +25,9 @@ const base = isSpanish ? '/es' : '';
 				{isSpanish ? 'Libros' : 'Books'}
 			</a>
 
-			<a href={`${base}/#contact`}>
-				{isSpanish ? 'Contacto' : 'Contact'}
-			</a>
-
+			<a href={`${base}/#contact`} class="contact-link">
+	{isSpanish ? 'Contacto' : 'Contact'}
+</a>
 			<span class="lang-switch">
 				<a href="/" class={isSpanish ? "" : "active"}>EN</a>
 				<span>|</span>
