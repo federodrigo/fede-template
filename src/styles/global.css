@@ -463,7 +463,8 @@ img {
 	}
 
 	.contact-section {
-		padding-top: 6px;
-		padding-bottom: 2px;
-	}
+	border-top: 1px solid var(--line);
+	padding-top: 32px;
+	margin-top: 24px;
+}
 }
