@@ -81,7 +81,7 @@ body {
 .main-nav a.contact-link {
 	padding: 8px 14px;
 	border-radius: 999px;
-	background: rgba(96,165,250,.12);
+	background: rgba(96, 165, 250, 0.12);
 	color: #60a5fa;
 	font-weight: 800;
 }
@@ -96,9 +96,8 @@ body {
 	margin-left: 24px;
 }
 
-
 .lang-switch a {
-	color: rgba(255,255,255,0.45);
+	color: rgba(255, 255, 255, 0.45);
 	font-weight: 700;
 	opacity: 1;
 }
@@ -214,11 +213,6 @@ section {
 	padding-top: 36px;
 }
 
-.contact-section {
-	padding-top: 8px;
-	padding-bottom: 4px;
-}
-
 h2 {
 	margin: 0 0 10px;
 	font-size: 1.62rem;
@@ -310,15 +304,6 @@ img {
 	background: #60a5fa;
 }
 
-.leadership-card span {
-	display: block;
-	margin-bottom: 12px;
-	color: var(--red);
-	font-size: 0.72rem;
-	font-weight: 900;
-	letter-spacing: 0.12em;
-}
-
 .leadership-card h3 {
 	margin: 0 0 8px;
 	font-size: 1.05rem;
@@ -399,10 +384,13 @@ img {
 	color: var(--blue);
 }
 
+/* CONTACT */
+
 .contact-section {
 	border-top: 1px solid var(--line);
 	padding-top: 36px;
 	margin-top: 24px;
+	padding-bottom: 4px;
 }
 
 .contact-section a[href^="mailto"] {
@@ -419,6 +407,29 @@ img {
 	gap: 12px;
 }
 
+.contact-item {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 0;
+}
+
+.contact-icon {
+	width: 34px;
+	height: 34px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 999px;
+	background: rgba(96, 165, 250, 0.12);
+	color: #2563eb;
+	font-size: 0.95rem;
+	font-weight: 800;
+}
+
+.contact-item a {
+	font-size: 1.08rem;
+}
 
 /* MOBILE */
 
@@ -485,4 +496,4 @@ img {
 		width: 220px;
 		height: 330px;
 	}
-
+}
