@@ -123,7 +123,7 @@ main {
 
 .hero {
 	max-width: 760px;
-	padding: 10px 0 20px;
+	padding: 10px 0 12px;
 	border-bottom: 1px solid var(--line);
 }
 
@@ -204,7 +204,11 @@ h1 {
 }
 
 section {
-	padding: 28px 0;
+	padding: 22px 0;
+}
+
+#about {
+	padding-top: 36px;
 }
 
 .contact-section {
