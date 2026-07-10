@@ -393,6 +393,13 @@ img {
 	padding-bottom: 4px;
 }
 
+.contact-intro {
+	font-size: 1.05rem;
+	color: var(--muted);
+	margin-bottom: 28px;
+	max-width: 700px;
+}
+
 .contact-links {
 	margin-top: 24px;
 	display: flex;
@@ -440,7 +447,12 @@ img {
 	color: var(--blue);
 }
 
-
+.contact-item p {
+	margin: 0;
+	color: var(--muted);
+	font-size: 1rem;
+	max-width: 500px;
+}
 
 
 /* MOBILE */
