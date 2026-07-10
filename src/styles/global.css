@@ -393,30 +393,23 @@ img {
 	padding-bottom: 4px;
 }
 
-.contact-section a[href^="mailto"] {
-	font-size: 1.3rem;
-	font-weight: 700;
-	color: var(--navy);
-	border-bottom: none;
-}
-
 .contact-links {
-	margin-top: 22px;
+	margin-top: 24px;
 	display: flex;
 	flex-direction: column;
-	gap: 12px;
+	gap: 22px;
 }
 
 .contact-item {
 	display: flex;
 	align-items: center;
-	gap: 12px;
+	gap: 16px;
 	margin: 0;
 }
 
 .contact-icon {
-	width: 34px;
-	height: 34px;
+	width: 38px;
+	height: 38px;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -425,11 +418,30 @@ img {
 	color: #2563eb;
 	font-size: 0.95rem;
 	font-weight: 800;
+	flex-shrink: 0;
+}
+
+.contact-label {
+	margin-bottom: 2px;
+	font-size: 0.75rem;
+	font-weight: 800;
+	letter-spacing: 0.14em;
+	color: var(--navy);
 }
 
 .contact-item a {
-	font-size: 1.08rem;
+	color: var(--navy);
+	font-size: 1rem;
+	font-weight: 500;
+	border-bottom: none;
 }
+
+.contact-item a:hover {
+	color: var(--blue);
+}
+
+
+
 
 /* MOBILE */
 
