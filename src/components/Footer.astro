@@ -1,12 +1,13 @@
 ---
 const today = new Date();
+const isSpanish = Astro.url.pathname.startsWith('/es');
 ---
 
 <footer>
 	<div class="footer-content">
 
 		<div class="footer-left">
-			<p>© {today.getFullYear()} Fede Rodrigo. CIO · Author.</p>
+			<p>© {today.getFullYear()} Fede Rodrigo. {isSpanish ? 'CIO · Autor.' : 'CIO · Author.'}</p>
 		</div>
 
 	
