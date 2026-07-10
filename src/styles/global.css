@@ -98,15 +98,8 @@ body {
 
 .lang-switch a.active {
 	opacity: 1;
-	font-weight: 800;
-	text-decoration: none;
-}
-
-.lang-switch a.active {
-	opacity: 1;
 	font-weight: 900;
-	text-decoration: underline;
-	text-underline-offset: 3px;
+	text-decoration: none;
 }
 
 .lang-switch a:hover {
