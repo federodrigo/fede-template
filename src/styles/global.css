@@ -96,10 +96,16 @@ body {
 	margin-left: 24px;
 }
 
-.lang-switch a.active {
+
+.lang-switch a {
+	color: rgba(255,255,255,0.45);
+	font-weight: 700;
 	opacity: 1;
-	font-weight: 900;
-	text-decoration: none;
+}
+
+.lang-switch a.active {
+	color: white;
+	font-weight: 700;
 }
 
 .lang-switch a:hover {
