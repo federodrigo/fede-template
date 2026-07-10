@@ -25,7 +25,8 @@ body {
 /* HEADER */
 
 .site-header {
-	background: var(--navy);
+	background: #eef3f9;
+	border-bottom: 1px solid var(--line);
 }
 
 .header-inner {
