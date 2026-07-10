@@ -123,7 +123,7 @@ main {
 
 .hero {
 	max-width: 760px;
-	padding: 10px 0 24px;
+	padding: 10px 0 12px;
 	border-bottom: 1px solid var(--line);
 }
 
@@ -149,7 +149,7 @@ main {
 
 h1 {
 	max-width: 760px;
-	margin: 0 0 22px;
+	margin: 0 0 16px;
 	font-size: clamp(2.8rem, 5vw, 4.4rem);
 	font-weight: 850;
 	line-height: 0.98;
@@ -172,7 +172,7 @@ h1 {
 }
 
 .lead-principles {
-	margin-top: 20px;
+	margin-top: 12px;
 	display: block;
 	font-size: 1rem;
 	font-weight: 750;
@@ -204,7 +204,7 @@ h1 {
 }
 
 section {
-	padding: 20px 0;
+	padding: 12px 0;
 }
 
 .contact-section {
@@ -213,7 +213,7 @@ section {
 }
 
 h2 {
-	margin: 0 0 10px;
+	margin: 0 0 4px;
 	font-size: 1.62rem;
 	font-weight: 850;
 	line-height: 1.15;
@@ -240,8 +240,8 @@ h3 {
 }
 
 p {
-	max-width: 740px;
-	margin: 0 0 10px;
+	max-width: 680px;
+	margin: 0 0 8px;
 }
 
 em {
@@ -417,17 +417,13 @@ img {
 
 	.hero {
 		max-width: none;
-		padding: 28px 0 44px 22px;
-	}
-
-	.hero::before {
-		top: 34px;
-		height: 112px;
+		padding: 24px 0 18px;
 	}
 
 	h1 {
 		font-size: 2.7rem;
 		max-width: 100%;
+		margin-bottom: 14px;
 	}
 
 	.lead {
@@ -436,6 +432,7 @@ img {
 
 	.lead-principles {
 		font-size: 0.96rem;
+		margin-top: 10px;
 	}
 
 	.hero-text {
@@ -443,7 +440,7 @@ img {
 	}
 
 	section {
-		padding: 36px 0;
+		padding: 18px 0;
 	}
 
 	.leadership-grid {
