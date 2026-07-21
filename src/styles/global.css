@@ -296,7 +296,7 @@ img {
 .about-photo-wrapper {
 	display: flex;
 	justify-content: flex-end;
-	align-items: flex-start;
+	align-items: flex-end;
 }
 
 .about-photo {
@@ -305,7 +305,7 @@ img {
 	max-width: 240px;
 	height: auto;
 	object-fit: contain;
-	border-radius: 12px;
+	border-radius: 0;
 }
 
 /* THE CIO OFFICE */
