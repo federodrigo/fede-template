@@ -298,6 +298,7 @@ img {
 	justify-content: center;
 	align-self: start;
 	padding-top: 8px;
+	transform: translateY(-24px);
 }
 
 .about-photo {
