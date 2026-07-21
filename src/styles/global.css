@@ -280,7 +280,7 @@ img {
 
 .about-layout {
 	display: grid;
-	grid-template-columns: minmax(0, 1fr) 240px;
+	grid-template-columns: minmax(0, 1fr) 280px;
 	gap: 36px;
 	align-items: start;
 }
@@ -295,8 +295,9 @@ img {
 
 .about-photo-wrapper {
 	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
+	justify-content: center;
+	align-self: start;
+	padding-top: 8px;
 }
 
 .about-photo {
@@ -561,4 +562,19 @@ img {
 		width: 220px;
 		height: 330px;
 	}
+
+	.about-layout {
+	grid-template-columns: 1fr;
+	gap: 20px;
+}
+
+.about-photo-wrapper {
+	justify-content: center;
+	order: -1;
+	padding-top: 0;
+}
+
+.about-photo {
+	max-width: 220px;
+}
 }
