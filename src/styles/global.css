@@ -570,10 +570,11 @@ img {
 }
 
 .about-photo-wrapper {
-	justify-content: center;
-	order: -1;
-	padding-top: 0;
-}
+		justify-content: center;
+		order: -1;
+		padding-top: 0;
+		transform: none;
+	}
 
 .about-photo {
 	max-width: 220px;
