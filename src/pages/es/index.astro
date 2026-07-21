@@ -1,7 +1,7 @@
 ---
-import BaseHead from '../../components/BaseHead.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 ---
 
 <!doctype html>
@@ -9,7 +9,7 @@ import Footer from '../../components/Footer.astro';
 	<head>
 		<BaseHead
 			title="Fede Rodrigo | CIO · Autor"
-			description="Chief Information Officer, autor y líder en tecnología"
+			description="Chief Information Officer, autor y líder tecnológico"
 		/>
 	</head>
 
@@ -24,32 +24,53 @@ import Footer from '../../components/Footer.astro';
 				</h1>
 
 				<div class="lead-principles">
-					<div>Personas primero</div>
-					<div>Impulsado por el negocio</div>
-					<div>Habilitado por la tecnología</div>
+					<div>Primero las personas</div>
+					<div>Impulsados por el negocio</div>
+					<div>Habilitados por la tecnología</div>
 				</div>
 			</section>
 
 			<section id="about">
 				<h2>Sobre mí</h2>
 
-				<p>
-			Soy Gerente de Tecnología (CIO) con más de 25 años de experiencia internacional liderando 
-			transformaciones tecnológicas, migraciones a la nube, implementaciones de ERP, 
-			iniciativas de convergencia IT/OT e integraciones tecnológicas posteriores a adquisiciones
-				</p>
+				<div class="about-layout">
+					<div class="about-content">
+						<p>
+							Soy Gerente de Tecnología (CIO) con más de 25 años de
+							experiencia internacional liderando transformaciones
+							tecnológicas, migraciones a la nube, implementaciones de ERP,
+							iniciativas de convergencia IT/OT e integraciones tecnológicas
+							posteriores a adquisiciones
+						</p>
 
-			<p>
-	<strong>Mi enfoque es simple: </strong> 
-	resolver problemas de negocio y mejorar las operaciones mediante la tecnología.
-	A lo largo de mi carrera he liderado equipos globales y programas de transformación en entornos internacionales
-	complejos, combinando estrategia y ejecución para generar resultados sostenibles y crear valor a largo plazo
-</p>
+						<p>
+							<strong>
+								Mi enfoque es simple:
+							</strong>
+							resolver problemas de negocio y mejorar las operaciones mediante
+							la tecnología.
 
-				<p>
-			Más allá del liderazgo tecnológico, escribo sobre libertad, incentivos, instituciones y por qué los 
-			sistemas —técnicos o políticos— fracasan cuando ignoran la realidad
-				</p>
+							A lo largo de mi carrera he liderado equipos globales y programas
+							de transformación en entornos internacionales complejos,
+							combinando estrategia y ejecución para generar resultados
+							sostenibles y crear valor a largo plazo
+						</p>
+
+						<p>
+							Más allá de mi trabajo, escribo sobre libertad, incentivos,
+							instituciones y por qué los sistemas —técnicos o políticos—
+							fracasan cuando ignoran la realidad
+						</p>
+					</div>
+
+					<div class="about-photo-wrapper">
+						<img
+							src="/images/fede.png"
+							alt="Fede Rodrigo, Gerente de Tecnología y autor"
+							class="about-photo"
+						/>
+					</div>
+				</div>
 			</section>
 
 			<section id="leadership">
@@ -57,50 +78,57 @@ import Footer from '../../components/Footer.astro';
 
 				<div class="leadership-grid">
 					<div class="leadership-card">
-						<h3>Liderazgo Ejecutivo en Tecnología</h3>
+						<h3>Liderazgo tecnológico ejecutivo</h3>
+
 						<p>
-							Alinear las decisiones tecnológicas con las prioridades del negocio,
-							los modelos operativos y la creación de valor a largo plazo
+							Alinear las decisiones tecnológicas con las prioridades del
+							negocio, los modelos operativos y la creación de valor a largo
+							plazo
 						</p>
 					</div>
 
 					<div class="leadership-card">
-						<h3>Transformación Digital y Cloud</h3>
+						<h3>Nube y transformación digital</h3>
+
 						<p>
-							Liderar programas de modernización en infraestructura,
-							aplicaciones, plataformas empresariales y servicios cloud
+							Liderar programas de modernización de infraestructura,
+							aplicaciones, plataformas empresariales y servicios en la nube
 						</p>
 					</div>
 
 					<div class="leadership-card">
-						<h3>ERP y Sistemas Empresariales</h3>
+						<h3>ERP y sistemas empresariales</h3>
+
 						<p>
-							Impulsar iniciativas ERP y plataformas que mejoren la visibilidad,
-							la ejecución, el control y la toma de decisiones
+							Impulsar iniciativas de ERP y plataformas que mejoren la
+							visibilidad, la ejecución, el control y la toma de decisiones
 						</p>
 					</div>
 
 					<div class="leadership-card">
-						<h3>Integración Tecnológica en Fusiones y Adquisiciones</h3>
+						<h3>Integración tecnológica de adquisiciones</h3>
+
 						<p>
 							Integrar sistemas, equipos, proveedores, procesos y datos durante
-							adquisiciones y cambios organizacionales
+							adquisiciones y procesos de cambio organizacional
 						</p>
 					</div>
 
 					<div class="leadership-card">
-						<h3>IT / OT y Tecnología Operacional</h3>
+						<h3>IT/OT y tecnología operacional</h3>
+
 						<p>
-							Conectar el liderazgo tecnológico con la realidad operativa,
-							la resiliencia, la seguridad y la continuidad del negocio
+							Conectar el liderazgo tecnológico con la realidad operativa, la
+							resiliencia, la seguridad y la continuidad del negocio
 						</p>
 					</div>
 
 					<div class="leadership-card">
-						<h3>CIO Fraccional y Asesoría Ejecutiva</h3>
+						<h3>CIO fraccional y asesoramiento</h3>
+
 						<p>
-							Acompañar a CEOs y equipos ejecutivos que necesitan dirección,
-							priorización y supervisión a nivel CIO
+							Apoyar a CEOs y equipos ejecutivos que necesitan dirección,
+							priorización y supervisión con experiencia de nivel CIO
 						</p>
 					</div>
 				</div>
@@ -113,21 +141,21 @@ import Footer from '../../components/Footer.astro';
 					<div class="book-item">
 						<img
 							src="/images/cio-book-cover.jpg"
-							alt="Cómo Convertirse en CIO y Tener Éxito"
+							alt="How to Become CIO and Succeed"
 							class="book-cover"
 						/>
 
 						<div class="book-content">
-							<h3>Cómo Convertirse en CIO y Tener Éxito</h3>
+							<h3>How to Become CIO and Succeed</h3>
 
 							<p class="book-subtitle">
-								Personas, Negocio, Estrategia
+								Personas, negocio y estrategia
 							</p>
 
 							<p class="book-description">
-								Una guía práctica para líderes tecnológicos que buscan conectar TI
-								con valor de negocio, construir equipos sólidos y tener éxito en el
-								rol de CIO
+								Una guía práctica para líderes tecnológicos que buscan conectar
+								la tecnología con el valor del negocio, desarrollar equipos
+								sólidos y tener éxito en el rol de CIO
 							</p>
 						</div>
 
@@ -143,22 +171,22 @@ import Footer from '../../components/Footer.astro';
 
 					<div class="book-item">
 						<img
-							src="/images/book-cover-esp.jpg"
-							alt="Una Teoría de Tolerancia Mínima"
+							src="/images/book-cover.jpg"
+							alt="A Theory of Minimal Tolerance"
 							class="book-cover"
 						/>
 
 						<div class="book-content">
-							<h3>Una Teoría de Tolerancia Mínima</h3>
+							<h3>A Theory of Minimal Tolerance</h3>
 
 							<p class="book-subtitle">
-								Una Teoría de Tolerancia Mínima
+								Una teoría de la tolerancia mínima
 							</p>
 
 							<p class="book-description">
-								Un próximo libro que explora la legitimidad, la coerción,
-								los límites institucionales y las condiciones bajo las cuales
-								el poder puede considerarse tolerable
+								Un próximo libro sobre legitimidad, coerción, límites
+								institucionales y las condiciones bajo las cuales el ejercicio
+								del poder puede considerarse tolerable
 							</p>
 
 							<p class="book-ssrn">
@@ -166,7 +194,7 @@ import Footer from '../../components/Footer.astro';
 									href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5984574"
 									target="_blank"
 								>
-									Basado en el Teorema de la Tolerancia Mínima (SSRN) →
+									Basado en The Minimal Tolerance Theorem (SSRN) →
 								</a>
 							</p>
 						</div>
@@ -174,58 +202,57 @@ import Footer from '../../components/Footer.astro';
 				</div>
 			</section>
 
-<section id="contact" class="contact-section">
-	<h2>Contacto</h2>
+			<section id="contact" class="contact-section">
+				<h2>Contacto</h2>
 
-	<p class="contact-intro">
-		Para oportunidades de liderazgo ejecutivo, conferencias,
-		podcasts, entrevistas en medios o consultas generales,
-		no dudes en contactarme directamente
-	</p>
-
-	<div class="contact-links">
-		<div class="contact-item">
-			<span class="contact-icon">✉</span>
-
-			<div>
-				<div class="contact-label">EMAIL</div>
-
-				<a href="mailto:contact@federodrigo.com">
-					contact@federodrigo.com
-				</a>
-			</div>
-		</div>
-
-		<div class="contact-item">
-			<span class="contact-icon">in</span>
-
-			<div>
-				<div class="contact-label">LINKEDIN</div>
-
-				<a
-					href="https://www.linkedin.com/in/fede-rodrigo/"
-					target="_blank"
-				>
-					linkedin.com/in/fede-rodrigo
-				</a>
-			</div>
-		</div>
-
-		<div class="contact-item">
-			<span class="contact-icon">→</span>
-
-			<div>
-				<div class="contact-label">RESPUESTA</div>
-
-				<p>
-					Reviso personalmente todas las consultas y respondo cuando corresponde
+				<p class="contact-intro">
+					Para oportunidades de liderazgo ejecutivo, conferencias, podcasts,
+					consultas de prensa o preguntas generales, podés contactarme
+					directamente
 				</p>
-			</div>
-		</div>
-	</div>
-</section>
 
+				<div class="contact-links">
+					<div class="contact-item">
+						<span class="contact-icon">✉</span>
 
+						<div>
+							<div class="contact-label">EMAIL</div>
+
+							<a href="mailto:contact@federodrigo.com">
+								contact@federodrigo.com
+							</a>
+						</div>
+					</div>
+
+					<div class="contact-item">
+						<span class="contact-icon">in</span>
+
+						<div>
+							<div class="contact-label">LINKEDIN</div>
+
+							<a
+								href="https://www.linkedin.com/in/fede-rodrigo/"
+								target="_blank"
+							>
+								linkedin.com/in/fede-rodrigo
+							</a>
+						</div>
+					</div>
+
+					<div class="contact-item">
+						<span class="contact-icon">→</span>
+
+						<div>
+							<div class="contact-label">RESPUESTA</div>
+
+							<p>
+								Reviso personalmente todas las consultas y respondo cuando
+								corresponde
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 
 		<Footer />
