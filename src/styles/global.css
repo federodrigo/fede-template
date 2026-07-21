@@ -274,6 +274,40 @@ img {
 	border-radius: 12px;
 }
 
+
+
+/* ABOUT */
+
+.about-layout {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) 240px;
+	gap: 36px;
+	align-items: start;
+}
+
+.about-content p {
+	max-width: none;
+}
+
+.about-content p:last-child {
+	margin-bottom: 0;
+}
+
+.about-photo-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.about-photo {
+	display: block;
+	width: 100%;
+	max-width: 240px;
+	height: auto;
+	object-fit: contain;
+	border-radius: 12px;
+}
+
 /* THE CIO OFFICE */
 
 .section-intro {
