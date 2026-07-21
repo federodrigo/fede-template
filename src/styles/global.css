@@ -281,7 +281,7 @@ img {
 .about-layout {
 	display: grid;
 	grid-template-columns: minmax(0, 1fr) 280px;
-	gap: 36px;
+	gap: 48px;
 	align-items: start;
 }
 
@@ -303,7 +303,7 @@ img {
 .about-photo {
 	display: block;
 	width: 100%;
-	max-width: 280px;
+	max-width: 260px;
 	height: auto;
 	object-fit: contain;
 	border-radius: 0;
